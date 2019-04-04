@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  if (num % 3) == (num % 3).round
+  if (num % 3) == 0
     return "Fizz"
-  elsif (num % 5) == (num % 5).round
+  elsif (num % 5) == 0
     return "Buzz"
-  elsif (num % 3) == ((num % 3).round && (num % 5) == (num % 5).round)
+  elsif (num % 3) && == ((num % 3).round && (num % 5) == (num % 5).round)
     return "FizzBuzz"
   else
     return "nil"
